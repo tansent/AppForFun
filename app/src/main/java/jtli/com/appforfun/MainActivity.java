@@ -30,14 +30,15 @@ public class MainActivity extends AppCompatActivity{
 
     @OnClick({R.id.btn_progressBar, R.id.btn_database, R.id.btn_recycleView})
     public void onViewClicked(View view) {
+        Intent intent;
         switch (view.getId()) {
             case R.id.btn_progressBar:
-                Intent intent = new Intent(this, ProgressBarActivity.class);
+                intent= new Intent(this, ProgressBarActivity.class);
                 startActivity(intent);
-                finish();
                 break;
             case R.id.btn_database:
-
+                intent = new Intent(this, ProgressBarActivity.class);
+                startActivity(intent);
                 break;
             case R.id.btn_recycleView:
 
