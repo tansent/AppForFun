@@ -37,12 +37,14 @@ public class MainActivity extends AppCompatActivity{
                 startActivity(intent);
                 break;
             case R.id.btn_database:
-                intent = new Intent(this, ProgressBarActivity.class);
-                startActivity(intent);
+//                intent = new Intent(this, ProgressBarActivity.class);
+//                startActivity(intent);
                 break;
             case R.id.btn_recycleView:
-
+                intent = new Intent(this, RecycleViewActivity.class);
+                startActivity(intent);
                 break;
         }
     }
+
 }
